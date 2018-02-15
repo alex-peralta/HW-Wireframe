@@ -2,7 +2,7 @@ body {
     background: black;
 }
 
-div {
+#container {
     background: #777;
     width: 89%;
     height: auto;
@@ -41,26 +41,30 @@ nav {
     padding: 20px;
 }
 
-section {
+#block {
+    background: #ebebeb;
+    width: 495px;
+    padding: 20px;
+    float: left;
+}
+
+/*
+#article {
     background: #ebebeb;
     width: 495px;
     margin: 20px;
     padding: 20px;
     float: left;
+    display: block;
 }
+*/
 
-article {
-    background: #ebebeb;
-    width: 495px;
-    margin: 20px;
-    padding: 20px;
-    float: left;
-}
 
-aside {
+#aside {
     background: #ebebeb;
     width: 33%;
     height: 200px;
+    margin-right: 10px;
     float: right;
 }
 
